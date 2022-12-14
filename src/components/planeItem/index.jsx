@@ -15,7 +15,7 @@ export const PlaneItem = ({
     {planeImage && <img className={styles.planeImage} src={planeImage} alt=''/>}
     <div className={styles.info}>
         <h2 className={styles.title}>{name}</h2>
-        <span className={styles.price}>{price}</span>
+        <span className={styles.price}>{price}$</span>
     </div>
     </Link>
   )
